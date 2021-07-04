@@ -5,7 +5,10 @@ import Title from './Title';
 function MainPageLayout({ children }) {
   return (
     <div>
-      <Title title="Box office" subtitle="this is a box office app" />
+      <Title
+        title="Box office"
+        subtitle="Are you looking for a show or an actor?"
+      />
       <Nav />
 
       {children}
